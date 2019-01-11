@@ -1,4 +1,4 @@
-## How to launch:
+# How to launch:
 
 ### Download and install NodeJS
 
