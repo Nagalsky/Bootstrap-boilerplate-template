@@ -1,2 +1,9 @@
-# Bootstrap-boilerplate-template
-Gulp and Bootstrap 4
+## How to launch:
+
+### Download and install NodeJS
+
+Inside repo folder:
+
+`npm install`
+
+`gulp`
