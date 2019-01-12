@@ -1,1 +1,1 @@
-$(document).ready(function(){});
+$(document).ready(function(){$(window).scroll(function(){5<=$(window).scrollTop()?$(".navbar").addClass("navbar--animated"):$(".navbar").removeClass("navbar--animated")})});
