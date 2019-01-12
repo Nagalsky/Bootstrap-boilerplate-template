@@ -9,24 +9,19 @@ $navbar-toggler-size: 24px;
   padding: 25px 0;
   @include transition(500ms);
   @include media-breakpoint-down(md) {
-    background: $navbar-bg;
-  }
-  @include media-breakpoint-down(md) {
-    padding: 15px 0px;
+    padding: 10px 0px;
   }
   @include media-breakpoint-down(xs) {
-    padding: 15px 15px;
+    padding: 10px 15px;
   }
   &.navbar--animated {
-    @include media-breakpoint-up(md) {
-      background: rgba($navbar-bg, 0.75);
-      .navbar-nav {
-        .nav-item {
-          .nav-link {
-            &:hover,
-            &:focus {
-              color: $black;
-            }
+    background: rgba($navbar-bg, 0.75);
+    .navbar-nav {
+      .nav-item {
+        .nav-link {
+          &:hover,
+          &:focus {
+            color: $black;
           }
         }
       }
