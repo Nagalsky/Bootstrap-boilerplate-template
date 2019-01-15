@@ -3,11 +3,6 @@
 /* Color variables */
 $white: #ffffff;
 $black: #000000;
-$dark: #222222;
-$gray: #777777;
-$gray-soft: #444444;
-$success-thin: #85e358;
-$success: #73c74b;
 
 //Override Bootstrap color variables
 .text-white {
@@ -16,21 +11,6 @@ $success: #73c74b;
 .text-black {
   color: $black !important;
 }
-.text-dark {
-  color: $dark !important;
-}
-.text-gray {
-  color: $gray !important;
-}
-.text-gray-soft {
-  color: $gray-soft !important;
-}
-.text-success-thin {
-  color: $success-thin !important;
-}
-.text-success {
-  color: $success !important;
-}
 
 .bg-white {
   background-color: $white !important;
@@ -38,42 +18,10 @@ $success: #73c74b;
 .bg-black {
   background-color: $black !important;
 }
-.bg-dark {
-  background-color: $dark !important;
-}
-.bg-gray {
-  background-color: $gray !important;
-}
-.bg-gray-soft {
-  background-color: $gray-soft !important;
-}
-.bg-success-thin {
-  background-color: $success-thin !important;
-}
-.bg-success {
-  background-color: $success !important;
-}
 
 /*************************
 	Fonts variables
 *************************/
-$font-regular: "montserratregular";
-$font-medium: "montserratmedium";
-$font-bold: "montserratbold";
-$font-boldextra: "montserratextrabold";
-
-.font-regular {
-  font-family: $font-regular !important;
-}
-.font-medium {
-  font-family: $font-medium !important;
-}
-.font-bold {
-  font-family: $font-bold !important;
-}
-.font-boldextra {
-  font-family: $font-boldextra !important;
-}
 
 $font-icons: "fontello";
 .font-icons {
@@ -83,9 +31,9 @@ $font-icons: "fontello";
 /*************************
 	Base variables
 *************************/
-$base-color: $gray-soft;
-$base-font: $font-regular;
-$base-animation: 250ms;
+// $base-color: $gray-soft;
+// $base-font: $font-regular;
+// $base-animation: 250ms;
 /*************************
 	Font path variable
 *************************/
@@ -94,19 +42,16 @@ $font-path: "../fonts/";
 /*************************
 	Body variables
 *************************/
-$body-font-family: $base-font;
-$body-font-size-xl: 16px;
-$body-font-size: 14px;
-$body-line-height: 1.5;
-$body-main-color: $base-color;
+// $body-font-family: $base-font;
+// $body-font-size: 14px;
+// $body-line-height: 1.5;
+// $body-main-color: $base-color;
 
 /*************************
 	Links variables
 *************************/
-$link-color: $success;
+//$link-color: $success;
 
 /*************************
 	Title variables
 *************************/
-$title-font-family: $font-boldextra;
-$title-color: $dark;
