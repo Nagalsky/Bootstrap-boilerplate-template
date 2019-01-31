@@ -1,41 +1,29 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    //= template/head.html
-    <title>Home page</title>
-  </head>
 
-  <body>
-    //= template/navbar.html
+<head>
+  //= template/head.html
+  <title>Home page</title>
+</head>
 
-    <main class="main">
-      <div class="custom-control custom-switch">
-        <input
-          type="checkbox"
-          class="custom-control-input"
-          id="customSwitch1"
-        />
-        <label class="custom-control-label" for="customSwitch1"
-          >Toggle this switch element</label
-        >
-      </div>
-      <div class="custom-control custom-switch">
-        <input
-          type="checkbox"
-          class="custom-control-input"
-          disabled
-          id="customSwitch2"
-        />
-        <label class="custom-control-label" for="customSwitch2"
-          >Disabled switch element</label
-        >
-      </div>
-    </main>
+<body>
+  //= template/navbar.html
 
-    //= template/footer.html
+  <main class="main">
+    <div class="custom-control custom-switch">
+      <input type="checkbox" class="custom-control-input" id="customSwitch1" />
+      <label class="custom-control-label" for="customSwitch1">Toggle this switch element</label>
+    </div>
+    <div class="custom-control custom-switch">
+      <input type="checkbox" class="custom-control-input" disabled id="customSwitch2" />
+      <label class="custom-control-label" for="customSwitch2">Disabled switch element</label>
+    </div>
+  </main>
 
-    <div></div>
+  //= template/footer.html
 
-    //= template/scripts-dependencies.html
-  </body>
+
+  //= template/scripts-dependencies.html
+</body>
+
 </html>
