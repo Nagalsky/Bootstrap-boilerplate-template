@@ -38,8 +38,8 @@
     "pump": "^2.0.0"
   },
   "dependencies": {
-    "bootstrap": "^4.2.1",
-    "jquery": "^3.2.1",
-    "popper.js": "^1.12.9"
+    "bootstrap": "^4.3.1",
+    "jquery": "^3.3.1",
+    "popper.js": "^1.14.7"
   }
 }
