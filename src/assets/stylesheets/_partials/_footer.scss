@@ -2,5 +2,6 @@
 
 
 .footer {
-  color: darken(#ffd8d9, 20%);
+  height: 200px;
+  @include gradient-x($start-color: rgba(white, .0), $end-color: rgba(white, .5), $start-percent: 0%, $end-percent: 100%);
 }
